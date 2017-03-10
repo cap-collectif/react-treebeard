@@ -4,14 +4,14 @@ export default {
     tree: {
         base: {
             listStyle: 'none',
-            margin: '0 0 15px 0',
+            margin: '0 0 10px 0',
             padding: 0,
             fontSize: '14px'
         },
         node: {
             base: {
                 position: 'relative',
-                marginBottom: '5px'
+                marginBottom: '3px'
             },
             link: {
                 cursor: 'pointer',
@@ -61,7 +61,7 @@ export default {
                     left: '-21px'
                 },
                 title: {
-                    lineHeight: '24px',
+                    lineHeight: '22px',
                     verticalAlign: 'middle'
                 }
             },
