@@ -43,7 +43,8 @@ TreeBeard.propTypes = {
         React.PropTypes.bool
     ]),
     onToggle: React.PropTypes.func,
-    decorators: React.PropTypes.object
+    decorators: React.PropTypes.object,
+    onClickFolder: React.PropTypes.func,
 };
 
 TreeBeard.defaultProps = {
